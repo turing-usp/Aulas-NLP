@@ -1,0 +1,3488 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "OK"
+      },
+      {
+        "intent": "affirm",
+        "text": "okay"
+      },
+      {
+        "intent": "affirm",
+        "text": "thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "thanks"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes, thanks"
+      },
+      {
+        "intent": "affirm",
+        "text": "cheers"
+      },
+      {
+        "intent": "affirm",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "affirm",
+        "text": "thank you very much"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 31,
+            "end": 46,
+            "value": "fire department",
+            "entity": "Fire"
+          }
+        ],
+        "text": "It's urgent I need to call the fire department, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "fire brigade",
+            "entity": "Fire"
+          }
+        ],
+        "text": "We need the fire brigade, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I have to call the firefighters, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 50,
+            "end": 62,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "A fire has spread in the room, I have to call the firefighters, it's urgent!!!"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 58,
+            "end": 73,
+            "value": "fire department",
+            "entity": "Fire"
+          }
+        ],
+        "text": "The fire alarm has been triggered, we need to contact the fire department, we need an help!!!"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "fire chief",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I have to call the fire chief, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I need to alert the firefighters, fire doors are open"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I need to call firefighters, fire has spread into the building, is not a fire drill"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "fire engine",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I have to call the fire engine, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 100,
+            "end": 115,
+            "value": "fire department",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Fire is spread into the rooms, we need a fire escape to exit from the building, I need to reach the fire department!!!"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I have to call firefighters and use fire exit!!!"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 65,
+            "end": 80,
+            "value": "fire department",
+            "entity": "Fire"
+          }
+        ],
+        "text": "We need a fire extinguisher to stop the fire, I need to call the fire department, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 53,
+            "end": 68,
+            "value": "fire department",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Pay attention to the fire hazard, I have to call the fire department!!!"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "fire brigade",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I need help of the fire brigade for the use of fire hydrant"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 41,
+            "end": 56,
+            "value": "fire department",
+            "entity": "Fire"
+          }
+        ],
+        "text": "The house is burned, I have to phone the fire department"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 74,
+            "end": 89,
+            "value": "fire department",
+            "entity": "Fire"
+          }
+        ],
+        "text": "A fire lighter has exploded and the room has burned, I need help from the fire department"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 24,
+            "end": 39,
+            "value": "fire protection",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I have to call the next fire protection district, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 19,
+            "end": 33,
+            "value": "fire authority",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I need help of the fire authority, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 19,
+            "end": 42,
+            "value": "fire and rescue service",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I need to call the fire and rescue service, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "fire station",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Let's call the fire station, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Let's call volunteer firefighters, we need an urgent help!!!"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 28,
+            "end": 40,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I have to call paid on call firefighters, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 15,
+            "end": 30,
+            "value": "fire protection",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Let's call the fire protection, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 16,
+            "end": 34,
+            "value": "fire investigators",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Let's alert the fire investigators, please"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I need to call the firefighters"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I need to contact the firefighters"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 32,
+            "end": 44,
+            "value": "fire brigade",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Please provide me the number of fire brigade"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 50,
+            "end": 62,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I have an emergency situation, please give me the firefighters number"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 26,
+            "end": 46,
+            "value": "firefighters station",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Let's contact the nearest firefighters station and ask for help"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 61,
+            "end": 73,
+            "value": "fire brigade",
+            "entity": "Fire"
+          }
+        ],
+        "text": "We need help, I have fire in my house, I need to contact the fire brigade"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 51,
+            "end": 63,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "My house is burning,  please I need to contact the firefighters"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 29,
+            "end": 52,
+            "value": "fire and rescue service",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Please I need to contact the fire and rescue service"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 48,
+            "end": 63,
+            "value": "fire department",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Neighbour's house is burning, I need to contact fire department"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "fireman",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I have to call the fireman"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 25,
+            "end": 48,
+            "value": "firefighters department",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Please let's contact the firefighters department"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "We need the service of the firefighters here"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 48,
+            "end": 60,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "The fire alarm is not working let's contact the firefighters"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "fire patrol",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Please I have to call the fire patrol immediately"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "firefighters",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I need to phone the firefighters"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 20,
+            "end": 40,
+            "value": "firefighters station",
+            "entity": "Fire"
+          }
+        ],
+        "text": "I have to phone the firefighters station"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 45,
+            "end": 57,
+            "value": "fire brigade",
+            "entity": "Fire"
+          }
+        ],
+        "text": "We cannot stop the fire, we need to call the fire brigade"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 39,
+            "end": 54,
+            "value": "fire department",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Fire is everywhere, I have to call the fire department"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 46,
+            "end": 58,
+            "value": "fire station",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Fire is unstoppable, I have to call the close fire station"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 45,
+            "end": 52,
+            "value": "firemen",
+            "entity": "Fire"
+          }
+        ],
+        "text": "Fire is developing very fast, I have to call firemen"
+      },
+      {
+        "intent": "emergency_fire",
+        "entities": [
+          {
+            "start": 62,
+            "end": 77,
+            "value": "fire protection",
+            "entity": "Fire"
+          }
+        ],
+        "text": "We have emergency at house, it burning, I have to contact the fire protection"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the police, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "boys in blue",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to call the boys in blue, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "constabulary",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to phone the constabulary, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "fuzz",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to contact the fuzz, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "law enforcement",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to reach the law enforcement, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "police force",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to call the police force there are shots in the street"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "law",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to contact the law, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "Old Bill",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to reach the Old Bill, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "police officer",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need an urgent help of the police officer, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "FBI",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to contact the FBI, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "policemen",
+            "entity": "Police"
+          }
+        ],
+        "text": "Urgent help of the policemen is required, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "policewoman",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need a policewoman, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "policeman",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the policeman, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "cops",
+            "entity": "Police"
+          }
+        ],
+        "text": "Help from the cops is required, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "officer",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the officer, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "man",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to phone the man, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "authority",
+            "entity": "Police"
+          }
+        ],
+        "text": "Urgent help from the authority is required, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "guard",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the guard, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "patrolman",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the patrolman, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 31,
+            "end": 42,
+            "value": "gendarmerie",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need an urgent help from the gendarmerie, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "crime prevention",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the crime prevention, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "police service",
+            "entity": "Police"
+          }
+        ],
+        "text": "Help from the police service is required, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "police department",
+            "entity": "Police"
+          }
+        ],
+        "text": "Show me the police department number, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 12,
+            "end": 31,
+            "value": "protective services",
+            "entity": "Police"
+          }
+        ],
+        "text": "Give me the protective services number, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "civil guard",
+            "entity": "Police"
+          }
+        ],
+        "text": "Show me civil guard number, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "civic guard",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the civic guard, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "troopers",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need an urgent help from troopers, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "sheriff",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call sheriff, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "rangers",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need an urgent help from rangers, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 16,
+            "end": 31,
+            "value": "military police",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to phone military police, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "police constable",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call police constable, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "police station",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to contact the police station, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "riot police",
+            "entity": "Police"
+          }
+        ],
+        "text": "Show me the riot police number, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 32,
+            "value": "secret police",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the secret police, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "district police",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to phone the district police, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "police authority",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the police authority, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "police captain",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to phone the police captain, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "police car",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need an urgent help of the police car, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "police chief",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the police chief, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 41,
+            "value": "police commissioner",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to contact the police commissioner, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "police detective",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to contact the police detective, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 37,
+            "value": "police headquarter",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to call the police headquarter, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "police inspector",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the police inspector, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "police liutenant",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to contact the police liutenant, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "police officer",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need an urgent help of the police officer, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "police raid",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call a police raid, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 12,
+            "end": 27,
+            "value": "police sergeant",
+            "entity": "Police"
+          }
+        ],
+        "text": "Show me the police sergeant number, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "police squad",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to call the police squad, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "police van",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the police van, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 29,
+            "end": 41,
+            "value": "police wagon",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need an urgent help of the police wagon, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "state police",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to contact the state police, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "public services",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to reach the public services, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "uniforms",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to contact with the uniforms, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 39,
+            "value": "police department",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need an help of the police department, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "criminal justice",
+            "entity": "Police"
+          }
+        ],
+        "text": "Urgent help of the criminal justice is required, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 33,
+            "value": "highway patrol",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the highway patrol, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 34,
+            "value": "law enforcement",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to call the law enforcement, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 37,
+            "value": "law enforcement",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to contact the law enforcement, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "vigilante",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to phone the vigilante, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 34,
+            "value": "public security",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the public security, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "private police",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to phone the private police, please"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to call to police"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to contact the police"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 12,
+            "end": 25,
+            "value": "police number",
+            "entity": "Police"
+          }
+        ],
+        "text": "Do you have police number? I need to call them"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 49,
+            "end": 55,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have emergency situation, urgent help from the police is required"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "police station",
+            "entity": "Police"
+          }
+        ],
+        "text": "What is the closest police station number?"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "police station",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the nearest police station and ask for help"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "officers",
+            "entity": "Police"
+          }
+        ],
+        "text": "We need help from officers"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 42,
+            "end": 48,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "Crime is happening, I have to contact the police"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "cops",
+            "entity": "Police"
+          }
+        ],
+        "text": "Please urgent help of the cops is required"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "FBI",
+            "entity": "Police"
+          }
+        ],
+        "text": "Please help of the FBI is required"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "officer",
+            "entity": "Police"
+          }
+        ],
+        "text": "Please help from the officer is required"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "guard",
+            "entity": "Police"
+          }
+        ],
+        "text": "What is the guard number?"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "sheriff",
+            "entity": "Police"
+          }
+        ],
+        "text": "What is the sheriff number?"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "sheriff",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to call the sheriff"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "police department",
+            "entity": "Police"
+          }
+        ],
+        "text": "What is the police department number?"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 29,
+            "end": 46,
+            "value": "police department",
+            "entity": "Police"
+          }
+        ],
+        "text": "Please I have to contact the police department"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "We need the service of the police here"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 50,
+            "end": 56,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "The watch is missing please I need an help of the police here"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "cops",
+            "entity": "Police"
+          }
+        ],
+        "text": "What is the cops number?"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "cops",
+            "entity": "Police"
+          }
+        ],
+        "text": "Please I need to call the cops immediately"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "highway patrol",
+            "entity": "Police"
+          }
+        ],
+        "text": "Please I have to contact the highway patrol"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 27,
+            "end": 40,
+            "value": "blue uniforms",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to alert the men in blue uniforms"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "Please I have to alert the police, theft has happened"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "police station",
+            "entity": "Police"
+          }
+        ],
+        "text": "Please I have to alert the police station"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "guard",
+            "entity": "Police"
+          }
+        ],
+        "text": "Please I have to alert the guard"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "Please the police is required"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "I need to phone the police I need an urgent help"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "police station",
+            "entity": "Police"
+          }
+        ],
+        "text": "I have to phone the police station"
+      },
+      {
+        "intent": "emergency_police",
+        "entities": [
+          {
+            "start": 76,
+            "end": 82,
+            "value": "police",
+            "entity": "Police"
+          }
+        ],
+        "text": "There has been an accident in the highway with injures, we need to call the police"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "Give me the insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "insurance Company",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I have to call my insurance Company, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 12,
+            "end": 35,
+            "value": "health insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "Give me the health insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 12,
+            "end": 36,
+            "value": "insurance Company number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "Give me the insurance Company number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 12,
+            "end": 33,
+            "value": "life insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "Give me the life insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 12,
+            "end": 36,
+            "value": "medical insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "Give me the medical insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 12,
+            "end": 34,
+            "value": "insurance agent number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "Give me the insurance agent number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 12,
+            "end": 32,
+            "value": "car insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "Give me the car insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 12,
+            "end": 35,
+            "value": "social insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "Give me the social insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 19,
+            "end": 45,
+            "value": "insurance toll-free number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I have to call the insurance toll-free number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 40,
+            "end": 49,
+            "value": "allowance",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "My leg is broken I need to call for the allowance, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 46,
+            "end": 54,
+            "value": "coverage",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "My home is burned down I have to call for the coverage, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 56,
+            "end": 65,
+            "value": "guarantee",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "Windows of the car are broken I have to contact for the guarantee, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 28,
+            "end": 38,
+            "value": "protection",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I need to call for the home protection"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 50,
+            "end": 67,
+            "value": "insurance Company",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "Thieves are entered in my home, I need to call my insurance Company"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 19,
+            "end": 36,
+            "value": "assurance Company",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I need to call the assurance Company, please. It's really urgent!!!"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 19,
+            "end": 36,
+            "value": "insurance Company",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I have to call the insurance Company, please. I need an help!!!"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 46,
+            "end": 70,
+            "value": "medical insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I need to ask about surgery done, show me the medical insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 40,
+            "end": 56,
+            "value": "insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I've had an accident by car, show me my insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 49,
+            "end": 65,
+            "value": "insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I have a water leak at home, I urgently need the insurance number"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 35,
+            "end": 51,
+            "value": "insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I crashed to light pole I need the insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 49,
+            "end": 69,
+            "value": "car insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I want to pay the insurance premium, give me the car insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 46,
+            "end": 68,
+            "value": "insurance agent number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I want clarification on my policy, I need the insurance agent number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 62,
+            "end": 83,
+            "value": "life insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I want to pay an additional premium on my policy, show me the life insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 69,
+            "end": 92,
+            "value": "social insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I want to have a summary of my pension scheme situation, show me the social insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 78,
+            "end": 95,
+            "value": "insurance Company",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I am waiting since too much days payment from my policy, I want to contact my insurance Company, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 42,
+            "end": 59,
+            "value": "insurance Company",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I've changed my adress, I have to call my insurance Company to update it, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 70,
+            "end": 87,
+            "value": "insurance Company",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I want to ask for clarification of my house policy, I have to call my insurance Company, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 57,
+            "end": 78,
+            "value": "life insurance number",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "I want to ask a surrender on my life policy, give me the life insurance number, please"
+      },
+      {
+        "intent": "emergency_insurance_number",
+        "entities": [
+          {
+            "start": 37,
+            "end": 54,
+            "value": "insurance Company",
+            "entity": "Insurance"
+          }
+        ],
+        "text": "My car was stolen, I have to call my insurance Company, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "tow truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to call the tow truck, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "wrecker",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need to call the wrecker, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "tow car",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to call the tow car, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "tow truck driver",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need to contact the tow truck driver, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "breakdown van",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need to phone the breakdown van, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 19,
+            "end": 34,
+            "value": "breakdown lorry",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to call the breakdown lorry, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "tow",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need an urgent help of the tow, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "trailer",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to phone the trailer, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 22,
+            "end": 37,
+            "value": "breakdown truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need to contact the breakdown truck, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 19,
+            "end": 33,
+            "value": "recovery truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to call the recovery truck, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 19,
+            "end": 37,
+            "value": "breakdown services",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need to call the breakdown services"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 22,
+            "end": 40,
+            "value": "breakdown services",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to contact the breakdown services"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "truck services",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "Please provide me the number of truck services"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 26,
+            "end": 44,
+            "value": "breakdown services",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "Do you have the number of breakdown services? I need to call them"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 50,
+            "end": 68,
+            "value": "breakdown services",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have an emergency situation, I have to call the breakdown services, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 27,
+            "end": 53,
+            "value": "breakdown services station",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to call the nearest breakdown services station for asking help"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 52,
+            "end": 66,
+            "value": "recovery truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "We need help, I have a car breakdown on the road, a recovery truck, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 42,
+            "end": 57,
+            "value": "breakdown truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "My car is not working, I need to call the breakdown truck"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 65,
+            "end": 83,
+            "value": "breakdown services",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "My car has stopped in the middle of the road, please contact the breakdown services"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 22,
+            "end": 37,
+            "value": "breakdown lorry",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need to contact the breakdown lorry, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "breakdown van",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to ask a breakdown van, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 20,
+            "end": 38,
+            "value": "breakdown services",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need to phone the breakdown services, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "tow truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "Is there any tow truck near from us?"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 66,
+            "end": 75,
+            "value": "tow truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "My friend has problems with its car on the road, I need to call a tow truck"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 22,
+            "end": 51,
+            "value": "breakdown services department",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to contact the breakdown services department, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 27,
+            "end": 36,
+            "value": "tow truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "We need the service of the tow truck here!!!"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 33,
+            "end": 47,
+            "value": "recovery truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "The car has broken down I need a recovery truck, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 19,
+            "end": 36,
+            "value": "tow truck company",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to call the tow truck company"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 27,
+            "end": 36,
+            "value": "tow truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need to find the nearest tow truck from here, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 22,
+            "end": 40,
+            "value": "breakdown services",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to contact the breakdown services, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 17,
+            "end": 33,
+            "value": "tow truck driver",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I have to call a tow truck driver to help me with the broken car on the road"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 29,
+            "end": 47,
+            "value": "breakdown services",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need help from the closest breakdown services, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "tow truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need to request tow truck, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 20,
+            "end": 38,
+            "value": "breakdown services",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I need to phone the breakdown services, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 31,
+            "end": 46,
+            "value": "breakdown lorry",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "The car has stopped, we need a breakdown lorry, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 40,
+            "end": 53,
+            "value": "breakdown van",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "I cannot drive anymore I need to call a breakdown van, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 35,
+            "end": 38,
+            "value": "tow",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "The car is wrack, I have to call a tow, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 59,
+            "end": 73,
+            "value": "recovery truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "The car needs to be taken from the road, I have to phone a recovery truck, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 28,
+            "end": 42,
+            "value": "recovery truck",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "The car has smoke, I need a recovery truck, please"
+      },
+      {
+        "intent": "emergency_road_help",
+        "entities": [
+          {
+            "start": 65,
+            "end": 81,
+            "value": "tow truck driver",
+            "entity": "Road_help"
+          }
+        ],
+        "text": "The car needs to be brought to the next garage, I have to call a tow truck driver, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "rega",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I have to call the rega, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 22,
+            "end": 42,
+            "value": "rescue by helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I need to contact the rescue by helicopter, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 19,
+            "end": 32,
+            "value": "air-ambulance",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I have to call the air-ambulance to reach me here in mountain, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 20,
+            "end": 43,
+            "value": "emergency response unit",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I have to phone the emergency response unit, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 15,
+            "end": 29,
+            "value": "flying doctors",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I need to call flying doctors, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 22,
+            "end": 35,
+            "value": "air-emergency",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I need to contact the air-emergency, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "air-help",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "Let's call air-help, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I need to ask for helicopter, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 22,
+            "end": 47,
+            "value": "rescue team by helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I need to contact the rescue team by helicopter, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 25,
+            "end": 46,
+            "value": "helicopter paramedics",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "Provide me the number of helicopter paramedics to reach me in mountain, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 27,
+            "end": 45,
+            "value": "helicopter station",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I need to contact the next helicopter station, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 35,
+            "end": 49,
+            "value": "air-paramedics",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "Give me the contact of the closest air-paramedics here in mountain, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 3,
+            "end": 22,
+            "value": "hospital helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "An hospital helicopter should hurry here on the glacier"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 22,
+            "end": 46,
+            "value": "air-ambulance department",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I have to contact the air-ambulance department, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 22,
+            "end": 42,
+            "value": "red cross helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I need to contact the red cross helicopter to reach me on the glacier, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 19,
+            "end": 39,
+            "value": "emergency helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I have to call the emergency helicopter in mountain, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 24,
+            "end": 44,
+            "value": "emergency helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I need to find the next emergency helicopter, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 22,
+            "end": 42,
+            "value": "emergency helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I have to contact the emergency helicopter to help me on mountain, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I have to alarm the helicopter to reach me on mountain, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 38,
+            "end": 51,
+            "value": "air-ambulance",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "Injured in mountain, high-priority by air-ambulance is required"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 65,
+            "end": 75,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "We need help in mountain, people are wounded, I have to call the helicopter, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 32,
+            "end": 42,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I'm wounded, I have to call the helicopter, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 49,
+            "end": 59,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I'm in mountain and my leg is broken, I need the helicopter, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 39,
+            "end": 52,
+            "value": "air-ambulance",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I'm hurt in mountain I have to contact air-ambulance, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 40,
+            "end": 53,
+            "value": "air-ambulance",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "Heart attack in mountain, mandatory the air-ambulance, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 89,
+            "end": 93,
+            "value": "rega",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "My family is in danger after landslide, some are wounded, I have urgent need to call the rega, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 73,
+            "end": 83,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "Necessary help, people are wounded after a landslide, I have to call the helicopter, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 49,
+            "end": 59,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "People are seriously injured, I have to call the helicopter, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 72,
+            "end": 80,
+            "value": "air-help",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "Necessity to save people life on mountain, they are hurt and in danger, air-help needed, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "air-ambulance",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I have to call air-ambulance to help injured people in mountain, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 83,
+            "end": 96,
+            "value": "air-ambulance",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "The accident occured on the mountain path, many people are injured, I have to call air-ambulance"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 65,
+            "end": 78,
+            "value": "air-ambulance",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "The bleeding cannot stop, urgent help needed, I have to call the air-ambulance, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 74,
+            "end": 84,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "I need to be brought to the next hospital in a hurry, I need to phone the helicopter"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 57,
+            "end": 71,
+            "value": "flying doctors",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "My friend needs urgent medical attention, I have to call flying doctors, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 81,
+            "end": 104,
+            "value": "emergency response unit",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "We've had an accident on mountain path, people's health is critical, we need the emergency response unit"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 44,
+            "end": 52,
+            "value": "air-help",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "Nature catastrophe has injured many people, air-help is required, please"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 30,
+            "end": 40,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "Please I have to call quickly helicopter, people are trapped in the mountain"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 71,
+            "end": 81,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "There has been a landslide, people seem to have trauma, I have to call helicopter"
+      },
+      {
+        "intent": "emergency_air_rescue",
+        "entities": [
+          {
+            "start": 55,
+            "end": 65,
+            "value": "helicopter",
+            "entity": "Air_rescue"
+          }
+        ],
+        "text": "Heartquake has happened in mountain, we need an urgent helicopter, please"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "ambulance",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I need to call the ambulance, please"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "hospital wagon",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "It's urgent we need to call the hospital wagon, please"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 27,
+            "end": 42,
+            "value": "mobile hospital",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Help me I need to call the mobile hospital, please"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 28,
+            "end": 43,
+            "value": "red cross truck",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I need assistance, call the red cross truck, please"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 12,
+            "end": 26,
+            "value": "sick transport",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Give me the sick transport number, please"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Call paramedics, please"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "injuries",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "injuries, I need a number for help, please"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "ambulance",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I need to call the ambulance"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I need to call paramedics"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I need to contact paramedics"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 32,
+            "end": 42,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Please provide me the number of paramedics"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 30,
+            "end": 44,
+            "value": "hospital wagon",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Do you have the number of the hospital wagon? I need to call them"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 46,
+            "end": 56,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I have an emergency situation, please give me paramedics number"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 18,
+            "end": 36,
+            "value": "paramedics station",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Where is the next paramedics station?"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 17,
+            "end": 35,
+            "value": "paramedics station",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Call the nearest paramedics station for help"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Please provide me paramedics number"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Hospital wagon",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Hospital wagon should hurry"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 18,
+            "end": 39,
+            "value": "paramedics department",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Where is the next paramedics department?"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 15,
+            "end": 36,
+            "value": "paramedics department",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Please contact paramedics department"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "emergency truck",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Find the emergency truck"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Please alarm paramedics"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 56,
+            "end": 65,
+            "value": "ambulance",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Necessary help, people are wounded, we need to call the ambulance"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "ambulance",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I'm wounded urgent ambulance is needed"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "ambulance",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "My hand is broken, ambulance should hurry"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "My leg is broken, paramedics are required"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 34,
+            "end": 44,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I'm hurt please I need to contact paramedics"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "red cross truck",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Heart attack, red cross truck should hurry"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 68,
+            "end": 78,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "He's been accidentally cut and he's bleeding, urgent help required, paramedics needed"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 42,
+            "end": 57,
+            "value": "red cross truck",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "My family is in danger, some are wounded, red cross truck is needed"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 41,
+            "end": 55,
+            "value": "hospital wagon",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "People are wounded, get me in touch with hospital wagon"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 52,
+            "end": 62,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "We've had an accident, people's health is critical, paramedics are required"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 44,
+            "end": 59,
+            "value": "red cross truck",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Nature catastrophe has injured many people, red cross truck is required"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 60,
+            "end": 69,
+            "value": "ambulance",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Necessity to save people life, they are hurt and in danger, ambulance needed"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 15,
+            "end": 29,
+            "value": "sick transport",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I need to call sick transport to help injured people"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 44,
+            "end": 53,
+            "value": "ambulance",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I have a critical situation, I need to call ambulance"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 51,
+            "end": 66,
+            "value": "mobile hospital",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "I don't feel my legs, I need urgency help, give me mobile hospital number"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 78,
+            "end": 87,
+            "value": "ambulance",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "People are seriously injured, high-priority is required, we need to reach the ambulance"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "paramedics",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "Please give me quickly paramedics number"
+      },
+      {
+        "intent": "emergency_ambulance",
+        "entities": [
+          {
+            "start": 71,
+            "end": 85,
+            "value": "sick transport",
+            "entity": "Ambulance"
+          }
+        ],
+        "text": "There has been an accident people seem to have trauma, we need to call sick transport"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

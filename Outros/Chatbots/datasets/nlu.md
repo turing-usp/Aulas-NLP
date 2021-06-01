@@ -1,0 +1,321 @@
+## intent:greet
+- hey
+- hello there
+- hi
+- hello
+- good morning
+- good evening
+- hey there
+- let's go
+- hey dude
+- goodmorning
+- goodevening
+- good afternoon
+
+## intent:affirm
+- great
+- OK
+- okay
+- thank you
+- thanks
+- yes, thanks
+- cheers
+- thanks a lot
+- thank you very much
+
+## intent: emergency_fire
+- It's urgent I need to call the [fire department](Fire), please
+- We need the [fire brigade](Fire), please
+- I have to call the [firefighters](Fire), please
+- A fire has spread in the room, I have to call the [firefighters](Fire), it's urgent!!!
+- The fire alarm has been triggered, we need to contact the [fire department](Fire), we need an help!!!
+- I have to call the [fire chief](Fire), please
+- I need to alert the [firefighters](Fire), fire doors are open
+- I need to call [firefighters](Fire), fire has spread into the building, is not a fire drill
+- I have to call the [fire engine](Fire), please
+- Fire is spread into the rooms, we need a fire escape to exit from the building, I need to reach the [fire department](Fire)!!!
+- I have to call [firefighters](Fire) and use fire exit!!!
+- We need a fire extinguisher to stop the fire, I need to call the [fire department](Fire), please
+- Pay attention to the fire hazard, I have to call the [fire department](Fire)!!!
+- I need help of the [fire brigade](Fire) for the use of fire hydrant
+- The house is burned, I have to phone the [fire department](Fire)
+- A fire lighter has exploded and the room has burned, I need help from the [fire department](Fire)
+- I have to call the next [fire protection](Fire) district, please
+- I need help of the [fire authority](Fire), please
+- I need to call the [fire and rescue service](Fire), please
+- Let's call the [fire station](Fire), please
+- Let's call volunteer [firefighters](Fire), we need an urgent help!!!
+- I have to call paid on call [firefighters](Fire), please
+- Let's call the [fire protection](Fire), please
+- Let's alert the [fire investigators](Fire), please
+- I need to call the [firefighters](Fire)
+- I need to contact the [firefighters](Fire)
+- Please provide me the number of [fire brigade](Fire)
+- I have an emergency situation, please give me the [firefighters](Fire) number
+- Let's contact the nearest [firefighters station](Fire) and ask for help
+- We need help, I have fire in my house, I need to contact the [fire brigade](Fire)
+- My house is burning,  please I need to contact the [firefighters](Fire)
+- Please I need to contact the [fire and rescue service](Fire)
+- Neighbour's house is burning, I need to contact [fire department](Fire)
+- I have to call the [fireman](Fire)
+- Please let's contact the [firefighters department](Fire)
+- We need the service of the [firefighters](Fire) here
+- The fire alarm is not working let's contact the [firefighters](Fire)
+- Please I have to call the [fire patrol](Fire) immediately
+- I need to phone the [firefighters](Fire)
+- I have to phone the [firefighters station](Fire)
+- We cannot stop the fire, we need to call the [fire brigade](Fire)
+- Fire is everywhere, I have to call the [fire department](Fire)
+- Fire is unstoppable, I have to call the close [fire station](Fire)
+- Fire is developing very fast, I have to call [firemen](Fire)
+- We have emergency at house, it burning, I have to contact the [fire protection](Fire)
+
+
+## intent: emergency_police
+- I have to call the [police](Police), please
+- I need to call the [boys in blue](Police), please
+- I have to phone the [constabulary](Police), please
+- I have to contact the [fuzz](Police), please
+- I need to reach the [law enforcement](Police), please
+- I need to call the [police force](Police) there are shots in the street
+- I have to contact the [law](Police), please
+- I have to reach the [Old Bill](Police), please
+- I need an urgent help of the [police officer](Police), please
+- I have to contact the [FBI](Police), please
+- Urgent help of the [policemen](Police) is required, please
+- I need a [policewoman](Police), please
+- I have to call the [policeman](Police), please
+- Help from the [cops](Police) is required, please
+- I have to call the [officer](Police), please
+- I have to phone the [man](Police), please
+- Urgent help from the [authority](Police) is required, please
+- I have to call the [guard](Police), please
+- I have to call the [patrolman](Police), please
+- I need an urgent help from the [gendarmerie](Police), please
+- I have to call the [crime prevention](Police), please
+- Help from the [police service](Police) is required, please
+- Show me the [police department](Police) number, please
+- Give me the [protective services](Police) number, please
+- Show me [civil guard](Police) number, please
+- I have to call the [civic guard](Police), please
+- I need an urgent help from [troopers](Police), please
+- I have to call [sheriff](Police), please
+- I need an urgent help from [rangers](Police), please
+- I need to phone [military police](Police), please
+- I have to call [police constable](Police), please
+- I need to contact the [police station](Police), please
+- Show me the [riot police](Police) number, please
+- I have to call the [secret police](Police), please
+- I need to phone the [district police](Police), please
+- I have to call the [police authority](Police), please
+- I need to phone the [police captain](Police), please
+- I need an urgent help of the [police car](Police), please
+- I have to call the [police chief](Police), please
+- I have to contact the [police commissioner](Police), please
+- I need to contact the [police detective](Police), please
+- I need to call the [police headquarter](Police), please
+- I have to call the [police inspector](Police), please
+- I have to contact the [police liutenant](Police), please
+- I need an urgent help of the [police officer](Police), please
+- I have to call a [police raid](Police), please
+- Show me the [police sergeant](Police) number, please
+- I need to call the [police squad](Police), please
+- I have to call the [police van](Police), please
+- I need an urgent help of the [police wagon](Police), please
+- I have to contact the [state police](Police), please
+- I have to reach the [public services](Police), please
+- I have to contact with the [uniforms](Police), please
+- I need an help of the [police department](Police), please
+- Urgent help of the [criminal justice](Police) is required, please
+- I have to call the [highway patrol](Police), please
+- I need to call the [law enforcement](Police), please
+- I need to contact the [law enforcement](Police), please
+- I need to phone the [vigilante](Police), please
+- I have to call the [public security](Police), please
+- I have to phone the [private police](Police), please
+- I need to call to [police](Police)
+- I need to contact the [police](Police)
+- Do you have [police number](Police)? I need to call them
+- I have emergency situation, urgent help from the [police](Police) is required
+- What is the closest [police station](Police) number?
+- I have to call the nearest [police station](Police) and ask for help
+- We need help from [officers](Police)
+- Crime is happening, I have to contact the [police](Police)
+- Please urgent help of the [cops](Police) is required
+- Please help of the [FBI](Police) is required
+- Please help from the [officer](Police) is required
+- What is the [guard](Police) number?
+- What is the [sheriff](Police) number?
+- I have to call the [sheriff](Police)
+- What is the [police department](Police) number?
+- Please I have to contact the [police department](Police)
+- We need the service of the [police](Police) here
+- The watch is missing please I need an help of the [police](Police) here
+- What is the [cops](Police) number?
+- Please I need to call the [cops](Police) immediately
+- Please I have to contact the [highway patrol](Police)
+- I have to alert the men in [blue uniforms](Police)
+- Please I have to alert the [police](Police), theft has happened
+- Please I have to alert the [police station](Police)
+- Please I have to alert the [guard](Police)
+- Please the [police](Police) is required
+- I need to phone the [police](Police) I need an urgent help
+- I have to phone the [police station](Police)
+- There has been an accident in the highway with injures, we need to call the [police](Police)
+
+
+## intent: emergency_insurance_number
+- Give me the [insurance number](Insurance), please
+- I have to call my [insurance Company](Insurance), please
+- Give me the [health insurance number](Insurance), please
+- Give me the [insurance Company number](Insurance), please
+- Give me the [life insurance number](Insurance), please
+- Give me the [medical insurance number](Insurance), please
+- Give me the [insurance agent number](Insurance), please
+- Give me the [car insurance number](Insurance), please
+- Give me the [social insurance number](Insurance), please
+- I have to call the [insurance toll-free number](Insurance), please
+- My leg is broken I need to call for the [allowance](Insurance), please
+- My home is burned down I have to call for the [coverage](Insurance), please
+- Windows of the car are broken I have to contact for the [guarantee](Insurance), please
+- I need to call for the home [protection](Insurance)
+- Thieves are entered in my home, I need to call my [insurance Company](Insurance)
+- I need to call the [assurance Company](Insurance), please. It's really urgent!!!
+- I have to call the [insurance Company](Insurance), please. I need an help!!! 
+- I need to ask about surgery done, show me the [medical insurance number](Insurance), please
+- I've had an accident by car, show me my [insurance number](Insurance), please
+- I have a water leak at home, I urgently need the [insurance number](Insurance)
+- I crashed to light pole I need the [insurance number](Insurance), please
+- I want to pay the insurance premium, give me the [car insurance number](Insurance), please
+- I want clarification on my policy, I need the [insurance agent number](Insurance), please
+- I want to pay an additional premium on my policy, show me the [life insurance number](Insurance), please
+- I want to have a summary of my pension scheme situation, show me the [social insurance number](Insurance), please 
+- I am waiting since too much days payment from my policy, I want to contact my [insurance Company](Insurance), please
+- I've changed my adress, I have to call my [insurance Company](Insurance) to update it, please
+- I want to ask for clarification of my house policy, I have to call my [insurance Company](Insurance), please
+- I want to ask a surrender on my life policy, give me the [life insurance number](Insurance), please
+- My car was stolen, I have to call my [insurance Company](Insurance), please
+
+## intent: emergency_road_help
+- I have to call the [tow truck](Road_help), please
+- I need to call the [wrecker](Road_help), please
+- I have to call the [tow car](Road_help), please
+- I need to contact the [tow truck driver](Road_help), please
+- I need to phone the [breakdown van](Road_help), please
+- I have to call the [breakdown lorry](Road_help), please
+- I need an urgent help of the [tow](Road_help), please
+- I have to phone the [trailer](Road_help), please
+- I need to contact the [breakdown truck](Road_help), please
+- I have to call the [recovery truck](Road_help), please
+- I need to call the [breakdown services](Road_help)
+- I have to contact the [breakdown services](Road_help)
+- Please provide me the number of [truck services](Road_help)
+- Do you have the number of [breakdown services](Road_help)? I need to call them
+- I have an emergency situation, I have to call the [breakdown services](Road_help), please
+- I have to call the nearest [breakdown services station](Road_help) for asking help
+- We need help, I have a car breakdown on the road, a [recovery truck](Road_help), please
+- My car is not working, I need to call the [breakdown truck](Road_help)
+- My car has stopped in the middle of the road, please contact the [breakdown services](Road_help)
+- I need to contact the [breakdown lorry](Road_help), please
+- I have to ask a [breakdown van](Road_help), please
+- I need to phone the [breakdown services](Road_help), please
+- Is there any [tow truck](Road_help) near from us?
+- My friend has problems with its car on the road, I need to call a [tow truck](Road_help)
+- I have to contact the [breakdown services department](Road_help), please
+- We need the service of the [tow truck](Road_help) here!!!
+- The car has broken down I need a [recovery truck](Road_help), please
+- I have to call the [tow truck company](Road_help)
+- I need to find the nearest [tow truck](Road_help) from here, please
+- I have to contact the [breakdown services](Road_help), please
+- I have to call a [tow truck driver](Road_help) to help me with the broken car on the road
+- I need help from the closest [breakdown services](Road_help), please
+- I need to request [tow truck](Road_help), please
+- I need to phone the [breakdown services](Road_help), please 
+- The car has stopped, we need a [breakdown lorry](Road_help), please
+- I cannot drive anymore I need to call a [breakdown van](Road_help), please
+- The car is wrack, I have to call a [tow](Road_help), please
+- The car needs to be taken from the road, I have to phone a [recovery truck](Road_help), please
+- The car has smoke, I need a [recovery truck](Road_help), please
+- The car needs to be brought to the next garage, I have to call a [tow truck driver](Road_help), please
+
+## intent: emergency_air_rescue
+- I have to call the [rega](Air_rescue), please
+- I need to contact the [rescue by helicopter](Air_rescue), please
+- I have to call the [air-ambulance](Air_rescue) to reach me here in mountain, please
+- I have to phone the [emergency response unit](Air_rescue), please
+- I need to call [flying doctors](Air_rescue), please
+- I need to contact the [air-emergency](Air_rescue), please
+- Let's call [air-help](Air_rescue), please
+- I need to ask for [helicopter](Air_rescue), please
+- I need to contact the [rescue team by helicopter](Air_rescue), please
+- Provide me the number of [helicopter paramedics](Air_rescue) to reach me in mountain, please
+- I need to contact the next [helicopter station](Air_rescue), please
+- Give me the contact of the closest [air-paramedics](Air_rescue) here in mountain, please
+- An [hospital helicopter](Air_rescue) should hurry here on the glacier
+- I have to contact the [air-ambulance department](Air_rescue), please
+- I need to contact the [red cross helicopter](Air_rescue) to reach me on the glacier, please
+- I have to call the [emergency helicopter](Air_rescue) in mountain, please
+- I need to find the next [emergency helicopter](Air_rescue), please
+- I have to contact the [emergency helicopter](Air_rescue) to help me on mountain, please
+- I have to alarm the [helicopter](Air_rescue) to reach me on mountain, please
+- Injured in mountain, high-priority by [air-ambulance](Air_rescue) is required
+- We need help in mountain, people are wounded, I have to call the [helicopter](Air_rescue), please 
+- I'm wounded, I have to call the [helicopter](Air_rescue), please
+- I'm in mountain and my leg is broken, I need the [helicopter](Air_rescue), please
+- I'm hurt in mountain I have to contact [air-ambulance](Air_rescue), please
+- Heart attack in mountain, mandatory the [air-ambulance](Air_rescue), please
+- My family is in danger after landslide, some are wounded, I have urgent need to call the [rega](Air_rescue), please
+- Necessary help, people are wounded after a landslide, I have to call the [helicopter](Air_rescue), please
+- People are seriously injured, I have to call the [helicopter](Air_rescue), please
+- Necessity to save people life on mountain, they are hurt and in danger, [air-help](Air_rescue) needed, please
+- I have to call [air-ambulance](Air_rescue) to help injured people in mountain, please
+- The accident occured on the mountain path, many people are injured, I have to call [air-ambulance](Air_rescue)
+- The bleeding cannot stop, urgent help needed, I have to call the [air-ambulance](Air_rescue), please
+- I need to be brought to the next hospital in a hurry, I need to phone the [helicopter](Air_rescue)
+- My friend needs urgent medical attention, I have to call [flying doctors](Air_rescue), please
+- We've had an accident on mountain path, people's health is critical, we need the [emergency response unit](Air_rescue)
+- Nature catastrophe has injured many people, [air-help](Air_rescue) is required, please
+- Please I have to call quickly [helicopter](Air_rescue), people are trapped in the mountain
+- There has been a landslide, people seem to have trauma, I have to call [helicopter](Air_rescue)
+- Heartquake has happened in mountain, we need an urgent [helicopter](Air_rescue), please
+
+## intent: emergency_ambulance
+- I need to call the [ambulance](Ambulance), please
+- It's urgent we need to call the [hospital wagon](Ambulance), please
+- Help me I need to call the [mobile hospital](Ambulance), please
+- I need assistance, call the [red cross truck](Ambulance), please
+- Give me the [sick transport](Ambulance) number, please
+- Call [paramedics](Ambulance), please
+- [injuries](Ambulance), I need a number for help, please
+- I need to call the [ambulance](Ambulance)
+- I need to call [paramedics](Ambulance)
+- I need to contact [paramedics](Ambulance)
+- Please provide me the number of [paramedics](Ambulance)
+- Do you have the number of the [hospital wagon](Ambulance)? I need to call them
+- I have an emergency situation, please give me [paramedics](Ambulance) number
+- Where is the next [paramedics station](Ambulance)?
+- Call the nearest [paramedics station](Ambulance) for help
+- Please provide me [paramedics](Ambulance) number
+- [Hospital wagon](Ambulance) should hurry
+- Where is the next [paramedics department](Ambulance)?
+- Please contact [paramedics department](Ambulance)
+- Find the [emergency truck](Ambulance)
+- Please alarm [paramedics](Ambulance)
+- Necessary help, people are wounded, we need to call the [ambulance](Ambulance)
+- I'm wounded urgent [ambulance](Ambulance) is needed
+- My hand is broken, [ambulance](Ambulance) should hurry
+- My leg is broken, [paramedics](Ambulance) are required
+- I'm hurt please I need to contact [paramedics](Ambulance)
+- Heart attack, [red cross truck](Ambulance) should hurry
+- He's been accidentally cut and he's bleeding, urgent help required, [paramedics](Ambulance) needed
+- My family is in danger, some are wounded, [red cross truck](Ambulance) is needed 
+- People are wounded, get me in touch with [hospital wagon](Ambulance)
+- We've had an accident, people's health is critical, [paramedics](Ambulance) are required
+- Nature catastrophe has injured many people, [red cross truck](Ambulance) is required
+- Necessity to save people life, they are hurt and in danger, [ambulance](Ambulance) needed
+- I need to call [sick transport](Ambulance) to help injured people
+- I have a critical situation, I need to call [ambulance](Ambulance)
+- I don't feel my legs, I need urgency help, give me [mobile hospital](Ambulance) number
+- People are seriously injured, high-priority is required, we need to reach the [ambulance](Ambulance)
+- Please give me quickly [paramedics](Ambulance) number
+- There has been an accident people seem to have trauma, we need to call [sick transport](Ambulance)

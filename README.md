@@ -1,3 +1,4 @@
+![logo-turing.png](https://i.postimg.cc/hj9Hjx94/logo-turing.png)
 # Aulas NLP
 Repositório criado para armazenar as aulas ministradas internamente na área de Processamento de Linguagem Natural do Grupo Turing. 
 

@@ -26,4 +26,4 @@ Aborda os principais modelos utilizados em NLP com suas implementações em data
 Outros tipos de aplicações e temas envolvendo NLP
 
 - [Chatbots](Outros/Chatbots/)
-- [Data Augmentation]()
+- [Data Augmentation e NLP](Outros/Data-Augmentation/)
